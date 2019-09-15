@@ -1,0 +1,140 @@
+
+* {
+  box-sizing: border-box;
+ margin:0;
+ padding:0
+}
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    background-color: #f2f2f2
+}
+.row {
+    width: 90%;
+    margin: auto;
+}
+.heading {
+    text-align: center;
+    font-size: 175%;
+    margin: 60px auto 0 auto;
+}
+h1 {
+  margin: 10px;
+  text-align:center;
+  
+}
+h3{
+  text-align: right;
+  font-style:bold;
+	color:red;
+	
+}
+div{
+	margin:20px;
+}
+
+section {
+    border: 1px solid #000;
+    background-color: #ecd1d1;
+    margin: 30px auto;
+    position: relative;
+}
+
+.title {
+    width: 120px;
+    border: 1px solid #000;
+    font-size: 125%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.section1 .title {
+    background-color: rgb(255, 192, 203);
+}
+
+.section2 .title {
+    background-color: rgb(151, 59, 74);
+}
+
+.section3 .title {
+    background-color: rgb(243, 183, 104);
+}
+
+p {
+    width: 100%;
+    height: 150px;
+    margin: 40px auto;
+    padding: 15px;
+    color: rgb(29, 27, 27);
+    /* background-color: aqua */
+}
+
+/* Simple Responsive Framework. */
+@media (max-width: 767px) {
+.row {
+  	    border: 1px solid green;
+		width: 100%;
+
+}
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  section {
+        margin: 30px 10px;
+    }
+
+    p {
+        padding: 10px;
+    }
+
+
+    .col-lg-4,
+    .col-lg-6,
+    .col-lg-12 {
+        float: left;
+
+    }
+
+    .col-lg-4 {
+        width: 30%;
+    }
+
+    .col-lg-6 {
+        width: 45%;
+    }
+
+    .col-lg-12 {
+        width: 90%;
+    }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  section {
+        margin: 30px 15px 0;
+    }
+
+    p {
+        padding: 10px;
+    }
+
+    .col-md-4,
+    .col-md-6,
+    .col-md-12 {
+        float: left;
+
+    }
+
+    .col-md-4 {
+        width: 30%;
+    }
+
+    .col-md-6 {
+        width: 45%;
+    }
+
+    .col-md-12 {
+        width: 94%;
+    }
+
+}
