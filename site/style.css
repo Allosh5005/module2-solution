@@ -26,7 +26,7 @@ h1 {
 h3{
   text-align: right;
   font-style:bold;
-	color:red;
+	color:#191917;
 	
 }
 div{
@@ -50,20 +50,20 @@ section {
     right: 0;
 }
 .section1 .title {
-    background-color: rgb(255, 192, 203);
+    background-color: #eeefc1;
 }
 
 .section2 .title {
-    background-color: rgb(151, 59, 74);
+    background-color: #f19090;
 }
 
 .section3 .title {
-    background-color: rgb(243, 183, 104);
+    background-color: #e6b4da;
 }
 
 p {
     width: 100%;
-    height: 150px;
+    height: 220px;
     margin: 40px auto;
     padding: 15px;
     color: rgb(29, 27, 27);
